@@ -1,5 +1,6 @@
 # AUTOSOURCE    
-Automatic activate and deactivate python virtualenvs when moving around directories
+Automatic activate and deactivate python virtualenvs when moving around directories. 
+**Note**: this first version activates only virtualenv which are in directories named "venv"
 
 ### Install
 ```
