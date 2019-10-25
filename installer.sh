@@ -5,7 +5,7 @@ function autosource_install {
   fi
 
   if ! grep -q ">>> autosource <<<" $profile ; then
-    echo '\n'"$(cat autosource.sh)" >> ${profile}
+    cat autosource.sh >> ${profile}
     echo "autosource: installed"
   else 
     echo "autosource: already installed"
