@@ -30,4 +30,4 @@ function lazycd {
 LAZYCD="v0.1"
 alias cd=lazycd
 autosource
-
+# >>> autosource/ <<< #
